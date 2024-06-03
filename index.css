@@ -1,0 +1,380 @@
+body{
+    font-family: "Barlow Condensed";
+    font-size: 24px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* NAVBAR */
+.nav-item{
+    position: relative;
+}
+.nav-item a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 8px; /* Ajusta el tamaño de la bolita */
+    bottom: -4px; /* Ajusta la posición de la bolita */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000; /* Ajusta el color de la bolita */
+    border-radius: 50%; /* Hace que la bolita sea circular */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-item a:hover:before {
+    width: 8px; /* Ajusta el tamaño de la bolita */
+  }
+
+
+.navbar {
+    
+    /* background-color: #c5dffab4 !important; */
+    background-color: rgba(155, 152, 152, 0.9) !important;
+}
+.navbar-collapse{
+    font-size: 32px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img-nav{
+    margin-left: 20%;
+    font-weight: bold;
+}
+
+.nav-link .active{
+    color: rgb(39, 39, 39) !important;
+    font-weight: normal !important;
+}
+
+.nav-link{
+    color: rgb(39, 39, 39) !important;
+    opacity: 1;
+    font-weight: normal;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: bolder;
+}
+
+.bandera{
+    max-width: 35px;
+    max-height: 35px;
+    
+}
+.banderas{
+    margin-left: 2rem;
+}
+
+/* HERO */
+
+.hero {
+    
+    min-height: 950px;
+    text-align: center;
+    position: relative;
+  
+  }
+
+.hero::before {
+    content: "";
+    background-image: url("imagenes/img.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+.hero-principal{
+    padding: 3rem;
+}  
+
+.t1{
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.t2{
+    position: absolute;
+    top: 53%;
+    left: 55%;
+}
+
+
+/* NOSOTROS */
+
+.nosotros{
+    padding: 10px;
+    margin-top: 1rem;
+    
+}
+
+.nosotros .contenedor{
+    max-width: 40%;
+    text-align: center;
+}
+
+
+
+/* MEDIO */
+
+.imagen-medio{
+    width: 100vw;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    margin-bottom: 5rem;
+}
+
+.img-medio{
+    width: 100%;
+    opacity: 0.7;
+    max-height: 25rem;
+}
+
+
+
+
+
+/* footer */
+
+footer{
+    
+    margin-top: 2rem;
+    /* border-top: 1px solid #03788069; */
+    
+}
+
+.footer-seccion{
+    padding-top: 30px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 170px;
+    /* background-color: #c5dffad5; */
+    background: linear-gradient(to top, #ecd4fb, rgba(236, 212, 251, 0.836), rgba(236, 212, 251, 0));
+}
+
+
+.footer-icono{
+    margin-left: 1rem;
+    margin-right: 6rem;
+    margin-bottom: 1rem;
+    /* bottom: 0 !important;
+    margin-bottom: 0 !important; */
+}
+
+.derechos{
+    width: 100%;
+    padding-left: 2rem;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    font-size: small;
+}
+
+.iconos-redes{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    
+}
+.iconos-redes a{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.footer-texto{
+    color: rgb(92, 91, 91);
+    font-weight: bold;
+
+}
+
+.redes-personal{
+    margin-left: 1rem;
+}
+
+.redes-personal p {
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+}
+.red-personal{
+    align-items: center;
+    text-align: center;
+    
+}
+/* IMAGEN INFERIOR  */
+
+.imagen-inf{
+    margin-inline: none;
+    
+}
+
+.img-inf{
+    width: 100vw;
+    opacity: 0.9;
+    max-height: 50rem;
+    box-shadow: 0 -10px 15px -10px rgba(0, 0, 0, 0.8);
+   
+}
+
+
+/* TESTIMONIOS  */
+.testimonios {
+    padding: 40px 40px 80px 40px;
+    background-color:  #ecd4fbd2 ;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+
+}
+
+.carousel-item{
+    height: 500px;
+    
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimonios img{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+
+}
+
+.testimonio-texto{
+    max-width: 70%;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.testimonio-info{
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonio-info p{
+    margin-bottom: 0;
+}
+
+.testimonio-info .cliente{
+    font-size: 1.2rem;
+
+}
+
+.testimonio-info .cargo{
+    font-size: 0.9rem;
+    color: #584e4e;
+}
+
+.testimonio-titulo{
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* SERVICIOS */
+
+.servicios-titulo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    box-shadow: 
+    0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    
+    
+}
+
+.servicios h5{
+    margin-right: 4rem;
+}
+.servicios{
+    text-align: start;
+    align-items: start;
+    margin-left: 20%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+
+}
+
+.servicios h4 {
+    color: #02418a;
+    font-weight: bold;
+}
+
+
+/* CONTACTO */
+.contact{
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* background-color: rgba(131, 243, 204, 0.5) !important;  */
+}
+.contacto-titulo{
+    text-align: center;
+    justify-content: center;
+}
+
+.contacto-titulo h2 {
+    width: 60%;
+    box-shadow: 
+    0 10px 20px -5px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form{
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.226);
+    min-width: 30vw !important;
+    max-width: 80vw !important;
+    border: 1px solid #ced4da !important;  
+    /* box-shadow: 4px 2px 2px #ced4da !important; */
+    
+    
+}
+
+.boton-contacto {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.boton-contacto .btn {
+    width: 40% !important;
+}
