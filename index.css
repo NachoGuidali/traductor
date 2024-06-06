@@ -522,4 +522,8 @@ footer{
     .galeria{
         width: 100%;
     }
+    .testimonios{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
