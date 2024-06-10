@@ -10,9 +10,21 @@ section{
 }
 
 /* NAVBAR */
+
+.navbar.transparent{
+    background-color: rgba(155, 152, 152, 0.9) !important;
+
+}
+
 .nav-item{
     position: relative;
 }
+
+.img-nav.chico{
+    width: 100px !important;
+    height: 70px !important;
+}
+
 .nav-item a:before {
     content: "";
     position: absolute;
@@ -238,6 +250,7 @@ footer{
     margin-left: 1rem;
     margin-right: 6rem;
     margin-bottom: 1rem;
+    border-radius: 10%;
     /* bottom: 0 !important;
     margin-bottom: 0 !important; */
 }
@@ -361,6 +374,8 @@ footer{
 .galeria{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
     width: 80%;
 }
