@@ -292,6 +292,10 @@ footer{
     text-align: center;
     
 }
+
+.red-personal a {
+    margin-right: 10px;
+}
 /* IMAGEN INFERIOR  */
 
 .imagen-inf{
