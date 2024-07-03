@@ -297,6 +297,12 @@ footer{
 .red-personal a {
     margin-right: 10px;
 }
+
+.derechos a{
+    color: white;
+    text-decoration: none;
+}
+
 /* IMAGEN INFERIOR  */
 
 .imagen-inf{
