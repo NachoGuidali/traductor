@@ -303,6 +303,10 @@ footer{
     text-decoration: none;
 }
 
+.derechos a:hover {
+    color: blue;
+}
+
 /* IMAGEN INFERIOR  */
 
 .imagen-inf{
