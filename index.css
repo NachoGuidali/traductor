@@ -112,12 +112,9 @@ h1 {
     font-weight: bold;
 }
 
-.español{
-    font-size: x-large;
-}
-
-.english{
-    font-size: x-large;
+.activo{
+    font-size: xx-large;
+    text-decoration: underline;
 }
 
 .color-dots{
